@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Herme'z portafolio",
   "scripts": {
-    "dev": "next dev -H 0.0.0.0", 
+    "dev": "next dev -H 0.0.0.0",
     "build": "next build",
     "prettier": "prettier -write .",
     "lint": "next lint"
@@ -12,6 +12,7 @@
   "author": "Hermez Jaramillo",
   "license": "MIT",
   "dependencies": {
+    "@chakra-ui/icons": "^2.0.19",
     "@chakra-ui/react": "^2.5.5",
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",
