@@ -18,13 +18,13 @@ const LogoBox = styled.span`
   }
 `
 const Logo = () => {
-  const dragonImg = `/images/universo${useColorModeValue('', '-dark')}.gif`
+  const universeGif = `/images/universo${useColorModeValue('', '-dark')}.gif`
 
   return (
     <Link href="/" legacyBehavior>
       <a>
         <LogoBox>
-          <Image src={dragonImg} width={30} height={30} alt="logo" />
+          <Image src={universeGif} width={30} height={30} alt="logo" />
           <Text
             color={useColorModeValue('gray.800', 'whiteAlpha.900')}
             fontFamily="M PLUS Rounded 1c"
