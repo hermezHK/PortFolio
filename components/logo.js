@@ -11,19 +11,20 @@ const LogoBox = styled.span`
   height: 30px;
   line-height: 20px;
   padding: 10px;
+  border-radius: 20px;
 
   &:hover img {
-    transform: rotate(20deg);
+    transform: rotate(60deg);
   }
 `
 const Logo = () => {
-  const dragonImg = `/images/dragon${useColorModeValue('', '-dark')}.png`
+  const dragonImg = `/images/universo${useColorModeValue('', '-dark')}.gif`
 
   return (
     <Link href="/" legacyBehavior>
       <a>
         <LogoBox>
-          <Image src={dragonImg} width={20} height={20} alt="dragonImg" />
+          <Image src={dragonImg} width={30} height={30} alt="logo" />
           <Text
             color={useColorModeValue('gray.800', 'whiteAlpha.900')}
             fontFamily="M PLUS Rounded 1c"
