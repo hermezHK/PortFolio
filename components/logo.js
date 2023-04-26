@@ -24,7 +24,7 @@ const Logo = () => {
     <Link href="/" legacyBehavior>
       <a>
         <LogoBox>
-          <Image src={universeGif} width={30} height={30} alt="logo" />
+          <Image src={universeGif} width={20} height={20} alt="logo" />
           <Text
             color={useColorModeValue('gray.800', 'whiteAlpha.900')}
             fontFamily="M PLUS Rounded 1c"
