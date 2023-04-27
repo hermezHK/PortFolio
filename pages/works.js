@@ -4,9 +4,11 @@ import { WorkGridItem } from '../components/grid-item';
 
 import thumbPlaylist from '../public/images/works/playlist.jpg';
 import thumbPassecure from '../public/images/works/passecure.jpg';
+import Layout from '../components/layouts/article';
 
 const Works = ()  => {
     return (
+       <Layout>
         <Container>
             <Heading as="h3" fontSize={20} mb={4}>
                 Works
@@ -25,6 +27,7 @@ const Works = ()  => {
             </Section>
           </SimpleGrid>
         </Container>
+      </Layout> 
     )
 }
 

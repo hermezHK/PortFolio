@@ -10,6 +10,7 @@ import {
   useColorModeValue
 } from '@chakra-ui/react';
 import { ChevronRightIcon } from '@chakra-ui/icons';
+import Layout from '../components/layouts/article';
 import Section from '../components/section';
 import Paragraph from '../components/paragraph';
 import { BioSection, BioYear } from '../components/biography';
@@ -20,6 +21,7 @@ const ProfileImage = chakra(Image, {
 
 const Page = () => {
   return (
+   <Layout>
     <Container>
       <Box
         borderRadius="lg"
@@ -137,6 +139,7 @@ const Page = () => {
         </Paragraph>
       </Section>
     </Container>
+   </Layout> 
   )
 }
 
