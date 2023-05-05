@@ -10,10 +10,11 @@ import {
   useColorModeValue
 } from '@chakra-ui/react';
 import { ChevronRightIcon } from '@chakra-ui/icons';
-import Layout from '../components/layouts/article';
+import Layout from '../components/layouts/article.js';
 import Section from '../components/section';
-import Paragraph from '../components/paragraph';
-import { BioSection, BioYear } from '../components/biography';
+import Paragraph from '../components/paragraph.js';
+import { BioSection, BioYear } from '../components/biography.js';
+import Background from '../components/Background.js';
 
 const ProfileImage = chakra(Image, {
   shouldForwardProp: prop => ['width', 'height', 'src', 'alt'].includes(prop)
@@ -21,6 +22,7 @@ const ProfileImage = chakra(Image, {
 
 const Page = () => {
   return (
+  <Background height="100px" width="100px">
    <Layout>
     <Container>
       <Box
@@ -139,7 +141,8 @@ const Page = () => {
         </Paragraph>
       </Section>
     </Container>
-   </Layout> 
+   </Layout>
+   </Background>   
   )
 }
 

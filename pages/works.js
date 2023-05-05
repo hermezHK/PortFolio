@@ -1,10 +1,10 @@
-import { Container, Heading, SimpleGrid, Divider } from '@chakra-ui/react';
+import { Container, Heading, SimpleGrid } from '@chakra-ui/react';
 import Section from '../components/section';
 import { WorkGridItem } from '../components/grid-item';
 
 import thumbPlaylist from '../public/images/works/playlist.jpg';
 import thumbPassecure from '../public/images/works/passecure.jpg';
-import Layout from '../components/layouts/article';
+import Layout from '../components/layouts/article.js';
 
 const Works = ()  => {
     return (
@@ -16,7 +16,7 @@ const Works = ()  => {
 
           <SimpleGrid columns={[1,1,2]} gap={6}>
             <Section>
-                <WorkGridItem id="playlist" title="API-PLAYLIST"  thumbnail={thumbPlaylist}>
+                <WorkGridItem id="playlist" title="API-PLAYLIST"  thumbnail={thumbPlaylist} href="https://github.com/hermezHK/projectunidad_7">
                 create users - login user - search users by id - create song - get list of songs by user - create a playlist and add songs - encryted password user.
                 </WorkGridItem>
             </Section>
