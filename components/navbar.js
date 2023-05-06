@@ -72,10 +72,10 @@ const Navbar = props => {
           flexGrow={1}
           mt={{ base: 4, md: 0 }}
         >
-          <LinkItem href="/works" path={path}>
+          <LinkItem href="/works" path={path} color={useColorModeValue('gray.800', 'whiteAlpha.900')}>
             Works
           </LinkItem>
-          <LinkItem href="/posts" path={path}>
+          <LinkItem href="/posts" path={path} color={useColorModeValue('gray.800', 'whiteAlpha.900')}>
             Posts
           </LinkItem>
         </Stack>

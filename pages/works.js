@@ -16,14 +16,10 @@ const Works = ()  => {
 
           <SimpleGrid columns={[1,1,2]} gap={6}>
             <Section>
-                <WorkGridItem id="playlist" title="API-PLAYLIST"  thumbnail={thumbPlaylist} href="https://github.com/hermezHK/projectunidad_7">
-                create users - login user - search users by id - create song - get list of songs by user - create a playlist and add songs - encryted password user.
-                </WorkGridItem>
+                <WorkGridItem id="playlist" title="API-PLAYLIST"  thumbnail={thumbPlaylist}></WorkGridItem>
             </Section>
             <Section>
-            <WorkGridItem id="Passecure" title="PASSECURE"  thumbnail={thumbPassecure}>
-            create a user - login - save website with your username and password and send an sms and email sending your credentials to access said website
-            </WorkGridItem>
+            <WorkGridItem id="passecure" title="PASSECURE"  thumbnail={thumbPassecure}></WorkGridItem>
             </Section>
           </SimpleGrid>
         </Container>

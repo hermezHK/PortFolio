@@ -7,7 +7,7 @@ import { useEffect } from "react";
 
 
 const Website = ({ Component, pageProps, router }) => {
-    return ( 
+    return (
   useEffect(() => {
     const threeScript = document.createElement("script");
     threeScript.setAttribute("id", "threeScript");

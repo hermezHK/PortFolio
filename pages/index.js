@@ -32,7 +32,7 @@ const Page = () => {
         mb={6}
         align="center"
       >
-        Developer made in Peru
+        Hi!, I&apos;m an  developer and  autodidactic in Peru!
       </Box>
 
       <Box display={{ md: 'flex' }}>
@@ -40,7 +40,7 @@ const Page = () => {
           <Heading as="h2" variant="page-title">
             Hermez Jaramillo
           </Heading>
-          <p>Developer / Geek / Reader</p>
+          <p>Developer / Geek / Reader / volunteer</p>
         </Box>
         <Box
           flexShrink={0}
