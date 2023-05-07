@@ -16,7 +16,7 @@ import Layout from '../components/layouts/article.js'
 import Section from '../components/section'
 import Paragraph from '../components/paragraph.js'
 import { BioSection, BioYear } from '../components/biography.js'
-import Background from '../components/Background.js'
+import Background from '../components/background.js'
 import { IoLogoGithub, IoLogoLinkedin } from 'react-icons/io5'
 
 const ProfileImage = chakra(Image, {
